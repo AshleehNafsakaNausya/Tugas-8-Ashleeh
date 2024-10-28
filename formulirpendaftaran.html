@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran Siswa - Tugas 8</title>
+</head>
+<body><form action="proses.php" method="post">
+   <h1>Formulir Pendaftaran Siswa - Tugas 8</h1> <label for="nama">Nama Calon Siswa   :</label>
+   <input type="text" id="nama" name="nama">
+  <p>
+    <label for="Tempat/Tanggal">Tempat/Tanggal Lahir:</label>
+    <input type="text" id="tempat/Tanggal" name="Tempat/Tanggal"><input type="date">
+  </p><p>
+    <label for="agama">Agama :</label>
+    <select id="agama" name="agama">
+        <option value="islam">islam</option>
+        <option value="kristen">kristen</option>
+        <option value="katolik">katolik</option>
+    </select>
+  </p><p>
+    <label for="komentar">alamat :</label>
+    <textarea id="komentar" name="komentar" rows="4" cols="50"></textarea>
+  </p><p>
+    <label for="nama">No Telp/Hp</label>
+    <input type="text" id="nama" name="No Telp/hp">
+  </p><p>
+    <label for="Jenis Kelamin">Jenis Kelamin:</label>
+    <input type="radio" id="pria" name="Jenis_Kelamin" value="pria">
+    <label for="pria">Pria</label>
+    <input type="radio" id="wanita" name="Jenis_Kelamin" value="wanita">
+    <label for="wanita">Wanita</label>
+  </p><p>
+    <label for="hobi">Hobi</label>
+    <input type="checkbox" id="membaca" name="Hobi[]" value="
+    membaca"><label for="membaca">Membaca</label>
+    <input type="checkbox" id="menulis" name="Hobi[]" value="
+    menulis"><label for="menulis">Menulis</label>
+    <input type="checkbox" id="olahraga" name="Hobi[]" value="
+    olahraga"><label for="olahraga">Olahraga</label>
+  </p><p>
+    <label for="pas foto">Pas Foto</label>
+    <button type="submit">Choose File</button>No File Choosen
+  </p><p>
+    <button type="submit">Submit</button>
+  </p>
+</form>
+
+    
+</body>
+</html>
